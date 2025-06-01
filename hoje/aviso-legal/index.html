@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" id="elementor-icons-css" href="css/elementor-icons.min.css" media="all">
+    <link rel="stylesheet" id="twentytwentytwo-style-css" href="css/politicas.css" media="all">
+    <title>Aviso Legal</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png">
+        </div>
+    </header>
+         
+    <div class="container">
+        <h1>Aviso Legal</h1>
+        <p>As informações contidas neste blog são apenas para fins informativos gerais. Embora nos esforcemos para manter as informações precisas e atualizadas, não fazemos representações ou garantias de qualquer tipo, expressas ou implícitas, sobre a integridade, precisão, confiabilidade, adequação ou disponibilidade em relação ao blog ou às informações, produtos, serviços ou gráficos relacionados contidos no blog para qualquer finalidade.</p>
+
+        <h2>1. Não Constitui Conselho Profissional</h2>
+        <p>O conteúdo deste blog não constitui um conselho profissional, financeiro, médico, legal ou outro tipo de conselho especializado. Sempre consulte um profissional adequado para obter conselhos ou informações sobre suas circunstâncias específicas.</p>
+
+        <h2>2. Responsabilidade</h2>
+        <p>Em nenhuma circunstância seremos responsáveis por qualquer perda ou dano, incluindo, sem limitação, perdas ou danos indiretos ou consequentes, ou qualquer perda ou dano decorrente da perda de dados ou lucros decorrentes do uso deste blog.</p>
+
+        <h2>3. Links Externos</h2>
+        <p>Este blog pode conter links para outros sites que não estão sob nosso controle. Não temos controle sobre a natureza, o conteúdo e a disponibilidade desses sites. A inclusão de quaisquer links não implica necessariamente uma recomendação ou endosso das opiniões expressas nesses sites.</p>
+
+        <h2>4. Alterações</h2>
+        <p>Reservamo-nos o direito de fazer alterações a este aviso legal a qualquer momento. As alterações serão publicadas nesta página e encorajamos você a revisá-las periodicamente para garantir que esteja ciente das atualizações.</p>
+
+        <h2>5. Contato</h2>
+        <p>Se você tiver alguma dúvida sobre estes Termos de Serviço, entre em contato conosco em .</p>
+
+        <p>Última atualização: 05/11/2024</p>
+    </div>
+
+    <div class="footer">
+        <div class="footer-top">
+            <img src="images/logo.png" alt="Logo">
+        </div>
+
+        <div class="footer-bottom">
+            <p><a href="https://meublogplus.site/hoje/aviso-legal?">Aviso Legal</a> | <a href="https://meublogplus.site/hoje/politica-de-privacidade?">Política de Privacidade</a> | <a href="https://meublogplus.site/hoje/termos-de-servico?">Termos de Serviços</a></p>
+        </div>
+    </div>
+
+<script>
+   document.addEventListener('DOMContentLoaded', function() {
+       // Captura os parâmetros da URL atual
+       var urlParams = new URLSearchParams(window.location.search);
+       var paramsString = urlParams.toString();
+
+       // Seleciona todos os links na página
+       var links = document.querySelectorAll('a');
+
+       links.forEach(function(link) {
+           // Verifica se o link já possui parâmetros
+           if (link.href.includes('?')) {
+               link.href += '&' + paramsString;
+           } else {
+               link.href += '?' + paramsString;
+           }
+       });
+   });
+</script></body></html>

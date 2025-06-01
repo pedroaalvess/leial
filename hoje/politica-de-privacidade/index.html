@@ -1,0 +1,74 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" id="twentytwentytwo-style-css" href="css/politicas.css" media="all">
+    <title>Política de Privacidade</title>
+
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png">
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Política de Privacidade</h1>
+        <p>Esta Política de Privacidade explica como coletamos, usamos e protegemos suas informações quando você visita nosso blog.</p>
+
+        <h2>1. Informações que Coletamos</h2>
+        <p>Podemos coletar informações pessoais identificáveis como nome e endereço de e-mail quando você se inscreve em nosso blog ou envia um comentário. Também coletamos informações não pessoais, como o tipo de navegador e o endereço IP, para melhorar a experiência do usuário.</p>
+
+        <h2>2. Uso das Informações</h2>
+        <p>As informações coletadas são usadas para personalizar sua experiência no blog, responder a suas solicitações e melhorar nossos serviços. Não vendemos ou alugamos suas informações pessoais a terceiros.</p>
+
+        <h2>3. Cookies</h2>
+        <p>Nosso site pode usar "cookies" para aprimorar a experiência do usuário. O navegador do usuário armazena cookies no disco rígido para fins de manutenção de registros e, às vezes, para rastrear informações sobre eles. Você pode optar por configurar seu navegador para recusar cookies.</p>
+
+        <h2>4. Proteção das Informações</h2>
+        <p>Implementamos medidas de segurança apropriadas para proteger contra acesso não autorizado, alteração, divulgação ou destruição de suas informações pessoais armazenadas em nosso site.</p>
+
+        <h2>5. Compartilhamento de Informações</h2>
+        <p>Podemos compartilhar informações demográficas agregadas e genéricas não vinculadas a nenhuma informação pessoal identificável sobre visitantes e usuários com nossos parceiros de negócios e anunciantes.</p>
+
+        <h2>6. Alterações nesta Política de Privacidade</h2>
+        <p>Reservamo-nos o direito de atualizar esta política de privacidade a qualquer momento. Quando o fizermos, revisaremos a data de atualização na parte inferior desta página. Incentivamos os usuários a verificar frequentemente esta página para quaisquer alterações.</p>
+
+        <h2>7. Seu Consentimento</h2>
+        <p>Ao usar este site, você concorda com esta política de privacidade.</p>
+
+        <h2>8. Contato</h2>
+        <p>Se você tiver alguma dúvida sobre estes Termos de Serviço, entre em contato conosco em .</p>
+
+        <p>Última atualização: 18/02/2025</p>
+    </div>
+
+    <div class="footer">
+        <div class="footer-top">
+            <img src="images/logo.png" alt="Logo">
+        </div>
+
+        <div class="footer-bottom">
+            <p><a href="https://meublogplus.site/hoje/aviso-legal?">Aviso Legal</a> | <a href="https://meublogplus.site/hoje/politica-de-privacidade?">Política de Privacidade</a> | <a href="https://meublogplus.site/hoje/termos-de-servico?">Termos de Serviços</a></p>
+        </div>
+    </div>
+
+<script>
+   document.addEventListener('DOMContentLoaded', function() {
+       // Captura os parâmetros da URL atual
+       var urlParams = new URLSearchParams(window.location.search);
+       var paramsString = urlParams.toString();
+
+       // Seleciona todos os links na página
+       var links = document.querySelectorAll('a');
+
+       links.forEach(function(link) {
+           // Verifica se o link já possui parâmetros
+           if (link.href.includes('?')) {
+               link.href += '&' + paramsString;
+           } else {
+               link.href += '?' + paramsString;
+           }
+       });
+   });
+</script></body></html>

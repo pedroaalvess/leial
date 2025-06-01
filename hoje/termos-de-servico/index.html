@@ -1,0 +1,68 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" id="twentytwentytwo-style-css" href="css/politicas.css" media="all">
+    <title>Termos de Serviço</title>
+
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png">
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Termos de Serviço</h1>
+        <p>Bem-vindo ao nosso blog. Ao acessar e usar este site, você concorda com os seguintes termos e condições:</p>
+
+        <h2>1. Uso do Site</h2>
+        <p>Você concorda em usar o site de acordo com todas as leis e regulamentos aplicáveis. Você não deve usar o site para qualquer finalidade ilegal ou proibida por estes Termos de Serviço.</p>
+
+        <h2>2. Propriedade Intelectual</h2>
+        <p>Todo o conteúdo publicado neste blog, incluindo textos, imagens e outros materiais, é de nossa propriedade ou licenciado para nós. Você não deve reproduzir, distribuir ou usar qualquer conteúdo sem nossa permissão expressa por escrito.</p>
+
+        <h2>3. Comentários dos Usuários</h2>
+        <p>Os usuários podem postar comentários no blog. No entanto, reservamo-nos o direito de remover quaisquer comentários que consideremos inapropriados, ofensivos ou que violem os direitos de terceiros.</p>
+
+        <h2>4. Isenção de Responsabilidade</h2>
+        <p>O conteúdo deste blog é fornecido apenas para fins informativos. Não garantimos a precisão ou integridade das informações fornecidas. Você usa o site por sua conta e risco.</p>
+
+        <h2>5. Alterações nos Termos</h2>
+        <p>Podemos revisar estes Termos de Serviço a qualquer momento. Ao continuar a usar o site após quaisquer alterações, você concorda em estar vinculado aos termos revisados.</p>
+
+        <h2>6. Contato</h2>
+        <p>Se você tiver alguma dúvida sobre estes Termos de Serviço, entre em contato conosco em .</p>
+
+        <p>Última atualização: 12/02/2025</p>
+    </div>
+
+    <div class="footer">
+        <div class="footer-top">
+            <img src="images/logo.png" alt="Logo">
+        </div>
+
+        <div class="footer-bottom">
+            <p><a href="https://meublogplus.site/hoje/aviso-legal?">Aviso Legal</a> | <a href="https://meublogplus.site/hoje/politica-de-privacidade?">Política de Privacidade</a> | <a href="https://meublogplus.site/hoje/termos-de-servico?">Termos de Serviços</a></p>
+        </div>
+    </div>
+
+<script>
+   document.addEventListener('DOMContentLoaded', function() {
+       // Captura os parâmetros da URL atual
+       var urlParams = new URLSearchParams(window.location.search);
+       var paramsString = urlParams.toString();
+
+       // Seleciona todos os links na página
+       var links = document.querySelectorAll('a');
+
+       links.forEach(function(link) {
+           // Verifica se o link já possui parâmetros
+           if (link.href.includes('?')) {
+               link.href += '&' + paramsString;
+           } else {
+               link.href += '?' + paramsString;
+           }
+       });
+   });
+</script></body></html>
